@@ -12,7 +12,17 @@ git clone git@github.com:scars377/FullStackEngineerChallenge.git
 cd FullStackEngineerChallenge
 ```
 
-2. Install node dependencies and database initialization.
+2. Change `server/.env` for postgreSQL settings if necessary.
+```env
+PGHOST=
+PGUSER=
+PGDATABASE=
+PGPASSWORD=
+PGPORT=
+EXPRESS_PORT=4000
+```
+
+3. Install node dependencies and database initialization.
 ```sh
 ./setup.sh
 ```
